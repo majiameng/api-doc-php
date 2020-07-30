@@ -82,6 +82,4 @@ class Api extends Controller
 }
 ```
 
-具体效果可运行test目录下的index.php查看
-
 ### 具体效果可运行test目录下的`index.php`查看
