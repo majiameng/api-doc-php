@@ -44,4 +44,44 @@ $api = new \tinymeng\apidoc\BootstrapApiDoc($config);
 $doc = $api->getHtml();
 exit($doc);
 ```
+
+访问：http://localhost/index/doc即可访问到文档
+
+> 注意：Api.php控制器的方法里一定要有title，method等参数说明用来给文档提示说明文字，如果无，会报错
+
+2、Api.php案例代码：
+
+```php
+namespace app\index\controller;
+
+use think\App;
+use think\Controller;
+use think\Db;
+
+/**
+ * @title API接口
+ * @desc API接口
+ * Class APi
+ * @package app\index\controller
+ */
+class Api extends Controller
+{
+    /**
+     * @title 获取所有栏目
+     * @url /index/api/homecategory
+     * @method POST
+     * @code 200 成功
+     * @code 201 失败
+     * @return int status 状态码 （具体参见状态码说明）
+     * @return string msg 提示信息
+     */
+    public function homecategory()
+    {
+        //... 你的代码
+    }
+}
+```
+
+具体效果可运行test目录下的index.php查看
+
 ### 具体效果可运行test目录下的`index.php`查看
