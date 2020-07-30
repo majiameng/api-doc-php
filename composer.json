@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "tinymeng\\apidoc\\": "src",
+            "tinymeng\\apidoc\\": "src"
         },
         "files": []
     }
