@@ -6,11 +6,11 @@
 
 ### 演示地址
 
-[【Gitee Pages:】http://tinymeng.gitee.io/api-doc-php](http://tinymeng.gitee.io/api-doc-php)
+[【Gitee Pages:】https://gitee.com/majiameng/api-doc-php](https://gitee.com/majiameng/api-doc-php)
 
 ### 开源地址：
 
-[【GigHub:】https://github.com/tinymeng/api-doc-php](https://github.com/tinymeng/api-doc-php)
+[【GigHub:】https://github.com/majiameng/api-doc-php](https://github.com/majiameng/api-doc-php)
     
 ### 扩展安装：
 
